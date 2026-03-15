@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home - Call2Screen</title>
+    <link
+      rel="shortcut icon"
+      href="img/logo.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="CSS/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img src="img/logo.png" alt="Call2Screen Logo" id="logo" />
+        <ul id="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <div id="hamburger" onclick="toggleNav()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="first-section-main">
+        <div class="bg">
+          <h1>Thorough</h1>
+          <h1>Screening</h1>
+          <h1>Process</h1>
+          <p>Quick, Easy, Affordable Option</p>
+          <a id="contact-btn" href="http://call2screen.co.uk/contact.html">Contact Us</a>
+        </div>
+      </section>
+      <section class="second-section-main">
+        <p>
+          Call2Screen offers a wide range of cutting-edge screening and security
+          services to ensure safety and efficiency in various industries.
+        </p>
+        <div class="second-section-container">
+          <span
+            ><img src="img/img1.png" alt="img1" />BS7858 Vetting</span
+          >
+          <span
+            ><img src="img/img2.png" alt="img2" />BPSS Clearance</span
+          >
+          <span
+            ><img src="img/img3.png" alt="img3" />Employee
+            Screening</span
+          >
+        </div>
+      </section>
+      <section class="third-section-main">
+        <div class="third-sec-items item-1">
+          <h3>RECRUITMENT IN ALL SECTORS</h3>
+          <p>
+            Call2Screen delivers top-notch recruitment solutions across all
+            sectors, connecting talent with opportunities.
+          </p>
+        </div>
+        <div class="third-sec-items item-2"></div>
+        <div class="third-sec-items item-3">
+          <h3>RECRUITMENT FOR SECURITY INDUSTRY</h3>
+          <p>
+            Call2Screen excels in recruiting top-tier talent for the security
+            industry, ensuring your organization’s safety and success.
+          </p>
+        </div>
+        <div class="third-sec-items item-4"></div>
+        <div class="third-sec-items item-5">
+          <h3>SCREENING AND VETTING FOR SECURITY INDUSTRY BS7858</h3>
+          <p>
+            Call2Screen provides BS7858 compliant screening and vetting services
+            tailored for the security industry’s rigorous standards.
+          </p>
+        </div>
+        <div class="third-sec-items item-6"></div>
+        <div class="third-sec-items item-7">
+          <h3>BRITISH STANDARD 7858 (BS 7858)</h3>
+          <p>
+            Call2Screen specializes in BS 7858 compliance, ensuring thorough
+            background checks for security industry professionals.
+          </p>
+        </div>
+        <div class="third-sec-items item-8"></div>
+        <div class="third-sec-items item-9">
+          <h3>BUDGET-FRIENDLY</h3>
+          <p>
+            The cost of recruiting is more than just a salary. Ensure your money
+            and time are well spent by giving your business the best chance of
+            finding the right person the first time around.
+          </p>
+        </div>
+      </section>
+      <section class="fourth-section-main">
+        <h1>Why Use Call2Screen Services?</h1>
+        <div class="fourth-section-container">
+          <div class="fourth-section-items">
+            <span>
+              <img src="img/idea.png" alt="img--2" />
+              <h3>Expertise</h3>
+            </span>
+            <p>
+              Rely on our expertise for thorough and reliable screening and
+              vetting solutions.
+            </p>
+            <button id="view-more-btn-1" class="view-more-btn">View More</button>
+          </div>
+          <div class="fourth-section-items">
+            <span>
+              <img src="img/approved.png" alt="img--3" />
+              <h3>Human touch</h3>
+            </span>
+            <p>
+              We combine advanced technology with a human touch to deliver
+              personalized and thorough screening and vetting services.
+            </p>
+            <button id="view-more-btn-2" class="view-more-btn">View More</button>
+          </div>
+          <div class="fourth-section-items">
+            <span>
+              <img src="img/stopwatch.png" alt="img--5" />
+              <h3>Perform checks faster</h3>
+            </span>
+            <p>
+              We prioritize speed without compromising accuracy in our screening
+              and vetting processes.
+            </p>
+            <button id="view-more-btn-3" class="view-more-btn">View More</button>
+          </div>
+        </div>
+
+        <!-- Pop Up for Btn 1 -->
+        <div id="popup-1" class="modal">
+          <!-- Modal content -->
+          <div class="modal-content">
+            <span class="close" id="closePopupButton-1">&times;</span>
+            <h2>Expertise</h2>
+            <p>Our team specializes in recruitment, leveraging industry-leading techniques to attract and secure top talent.</p>
+            <p>We are experts in BS7858 screening and vetting, ensuring comprehensive background checks and compliance with the highest standards of security.</p>
+          </div>
+        </div>
+
+        <!-- Pop Up for Btn 2 -->
+        <div id="popup-2" class="modal">
+          <!-- Modal content -->
+          <div class="modal-content">
+            <span class="close" id="closePopupButton-2">&times;</span>
+            <h2>Human Touch</h2>
+            <p>We utilize advanced techniques and tools to ensure a seamless and effective hiring experience. Our meticulous process includes identity verification, criminal record checks, financial history analysis, and employment history verification, providing peace of mind that only the most trustworthy candidates are selected..</p>
+            <p>Trust us to deliver exceptional recruitment solutions with a strong focus on security and compliance. This rigorous process guarantees that only the most trustworthy and qualified individuals are selected.</p>
+          </div>
+        </div>
+
+        <!-- Pop Up for Btn 3 -->
+        <div id="popup-3" class="modal">
+          <!-- Modal content -->
+          <div class="modal-content">
+            <span class="close" id="closePopupButton-3">&times;</span>
+            <h2>Perform Checks Faster</h2>
+            <p>By integrating advanced technology and streamlined procedures, our recruitment, screening & vetting process are both reliable and fast, minimizing hiring times while maintaining the highest standards of security and compliance.</p>
+            <p>Trust us to help you build a team you can rely on with confidence.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div id="footer-div-1">
+        <div id="footer-sub-div-1">
+          <img
+            src="img/logo.png"
+            alt="Call2Screen Logo"
+            id="footer-img"
+          />
+          <p id="footer-p">
+            Call2screen is an employee screening company who specializes in Pre
+            Employment Screening and background checks.
+          </p>
+          <div class="social-links">
+            <a
+              href="https://www.facebook.com/people/Call2Screen-Ltd/61560005464691/?mibextid=ZbWKwL"
+              target="_blank"
+              ><img src="img/facebook.png" alt="Facebook Logo"
+            /></a>
+            <a href="https://x.com/"
+              ><img src="img/twitter.png" alt="Xlogo"
+            /></a>
+            <a href="https://www.linkedin.com/"
+              ><img src="img/linkedin.png" alt="LinkedIn Logo"
+            /></a>
+          </div>
+        </div>
+        <div id="footer-sub-div-2">
+          <span
+            ><img src="img/phone-call.png" alt="phone" /><a
+              href="tel:+442034324095"
+              >02034324095</a
+            ></span
+          >
+          <span
+            ><img src="img/mail-inbox-app.png" alt="email" /><a
+              href="mailto:info@call2screen.co.uk"
+              >info@call2screen.co.uk</a
+            ></span
+          >
+          <span
+            ><img src="img/location.png" alt="address" /><a
+              href="https://www.google.com/maps/place/3805,+182+High+St+N,+London+E6+2JA,+UK/@51.5387031,0.0514044,170m/data=!3m2!1e3!4b1!4m5!3m4!1s0x47d8a64bcd464441:0xb7e3e6571cc62d52!8m2!3d51.5387023!4d0.0520481?entry=ttu"
+              target="_blank"
+              >OFFICE 3805 182-184 HIGH STREET NORTH, EAST HAM, LONDON, UNITED
+              KINGDOM - E6 2JA</a
+            ></span
+          >
+        </div>
+      </div>
+      <div id="footer-div-2">
+        © 2023 Call2Screen Ltd. | All Rights Reserved | Registration Number:	15756911 | Registered in England &
+        Wales.
+      </div>
+    </footer>
+    <script src="JS/index.js"></script>
+  </body>
+</html>
