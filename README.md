@@ -83,8 +83,8 @@ Call2Screen/
 No build process or dependencies required. Simply clone the repo and open the homepage:
 
 ```bash
-git clone https://github.com/ammarwaheed8/call2screen-uk-recruiting-service.git
-cd Call2Screen — UK Screening & Vetting Company
+git clone https://github.com/ammarwaheed8/Call2Screen-UK-Screening-Vetting-Company-Website.git
+cd Call2Screen-UK-Screening-Vetting-Company-Website
 # Open index.html in your browser
 ```
 
